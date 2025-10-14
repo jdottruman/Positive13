@@ -352,7 +352,9 @@ padding: var(--section-padding-y);
   /* end of footer styles */
   /* iphone ver */
   @media (max-width: 768px) {
-
+.nav{
+  padding: .5rem 1rem;
+}
     .nav__logo,
     .nav__logo a {
       font-size: 1rem;
