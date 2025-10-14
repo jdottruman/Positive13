@@ -174,6 +174,7 @@ padding: var(--section-padding-y);
   overflow: visible;
   display: flex;
   flex-direction: column;
+ 
  }
  
  .card-details {
@@ -181,6 +182,7 @@ padding: var(--section-padding-y);
   height: 100%;
   gap: .5em;
   display: grid;
+  text-align: center;
   place-content: center;
  }
  
@@ -189,7 +191,7 @@ padding: var(--section-padding-y);
   width: 60%;
   border-radius: 1rem;
   border: none;
-  background-color: #008bf8;
+  background-color: var(--accent-color);
   color: #fff;
   font-size: 1rem;
   padding: .5rem 1rem;
@@ -212,7 +214,7 @@ padding: var(--section-padding-y);
  
  /*Hover*/
  .card:hover {
-  border-color: #008bf8;
+  border-color: var(--accent-color);
   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
  }
  
@@ -234,7 +236,7 @@ padding: var(--section-padding-y);
   /* end of card section styles */
 
   /* iphone ver */
-  @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+  @media (max-width: 768px) {
     .navUpper {
       height: unset;
       flex-direction: row;
@@ -346,113 +348,6 @@ padding: var(--section-padding-y);
     }
   }
   
-  @media screen and (min-width: 667px) and (max-width: 935px) and (orientation: landscape) {
-    .navUpper {
-      height: unset;
-      flex-direction: row;
-      border-radius: unset;
-      padding: 1rem 2rem;
-    }
-  
-    .nav__logo,
-    .nav__logo a {
-      font-weight: 100;
-      padding: 0;
-      font-size: 1rem;
-      line-height: 1;
-      width: 10rem;
-      text-align: left;
-    }
-    .nav__menu ul li a,
-    .nav__menu ul li a i {
-      color: #fffcfc;
-      font-size: 2rem;
-    }
-    .nav__hamburger {
-      display: flex;
-    }
-    .nav__location {
-      display: flex;
-      color: #cacaca;
-  
-      font-size: 0.5rem;
-      align-items: center;
-      justify-content: center;
-      font-weight: 100;
-      position: absolute;
-      top: 2.3rem;
-      right: 1rem;
-    }
-    .nav__location i {
-      padding: 0.3rem;
-    }
-    .nav__menu {
-      position: absolute;
-      display: flex;
-      flex-direction: column; /* Stack items vertically */
-      align-items: center;
-      background-color: rgba(255, 255, 255, 0.13);
-      top: -15rem;
-      width: 100%;
-      transition: all ease-in-out 0.4s;
-    }
-  
-    .nav__menu ul {
-      flex-direction: column;
-      width: 100%;
-      padding: 3rem 0 0.6rem;
-      align-items: center;
-      justify-content: space-evenly;
-      height: 100%;
-    }
-    .nav__menu ul li button {
-      width: unset;
-      padding: 1.5rem 0;
-      font-size: 1.5rem;
-      width: 50vw;
-    }
-    .nav__menu ul li {
-      text-align: center;
-      width: 100%;
-      margin: 1rem 0;
-    }
-  
-    .nav__menu {
-      display: none;
-    }
-  
-    .nav__menu.active {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: #000000f6;
-      width: 100%;
-      z-index: 800;
-      backdrop-filter: blur(5px);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      overflow-x: hidden;
-    }
-  
-    .nav__hamburger.active .nav__hamburger__line:nth-child(1) {
-      transform: rotate(45deg) translate(0.45rem, 0.1875rem);
-    }
-  
-    .nav__hamburger.active .nav__hamburger__line:nth-child(2) {
-      opacity: 0;
-    }
-  
-    .nav__hamburger.active .nav__hamburger__line:nth-child(3) {
-      transform: rotate(-45deg) translate(0.25rem, -0.01975rem);
-    }
-  
-    .nav__hamburger.active .nav__hamburger__line {
-      transition: all ease-in-out 0.35s;
-      background-color: rgb(255, 255, 255);
-  
-      z-index: 2000;
-    }
-  }
+
   
   /* end of Nav Styles   */
