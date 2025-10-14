@@ -2,7 +2,7 @@
 :root{
   --soft-blue:#66C3FF;
     --accent-color: #53D8FB;
-    --accent-color: #01a5ce;
+    --accent-color: #00bdec;
     --grey:#DCE1E9;
     --black:#363732;
 
@@ -95,9 +95,8 @@ html {
   .nav__menu ul li a:hover,
   .nav__menu ul li a:focus {
     /* border-bottom: 2px solid var(--accent-color); */
-    color: var(--grey);
+    color:var(--black);
     transform: translateY(-2px);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   .nav__hamburger {
