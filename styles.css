@@ -237,13 +237,7 @@ padding: var(--section-padding-y);
 
   /* iphone ver */
   @media (max-width: 768px) {
-    .navUpper {
-      height: unset;
-      flex-direction: row;
-      border-radius: unset;
-      padding: 1rem 2rem;
-    }
-  
+
     .nav__logo,
     .nav__logo a {
       font-weight: 300;
@@ -346,6 +340,24 @@ padding: var(--section-padding-y);
   
       z-index: 2000;
     }
+    .MissionStatement{
+      flex-direction: column;
+      padding:0;
+      padding-bottom: 2rem;
+    }
+
+    .MissionImgContainer{
+      display: flex;
+      justify-content: center;
+    }
+    .MissionImgContainer img{
+      width: 50%;
+      height: 50%;
+  }
+
+  .card{
+    width: 100%;
+align-items: center;  }
   }
   
 
