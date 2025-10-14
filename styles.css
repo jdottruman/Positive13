@@ -473,12 +473,15 @@ padding: var(--section-padding-y);
   }
 
   .card{
-    width: 100%;
 align-items: center;  }
 
 .cardImageContainer{
-  width: 100%;
   border-radius: 20px;
+}
+.cardSection{
+  flex-wrap: wrap;        /* allows cards to move to a new line */
+
+
 }
 
   }
