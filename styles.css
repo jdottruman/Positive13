@@ -356,12 +356,9 @@ padding: var(--section-padding-y);
 
     .nav__logo,
     .nav__logo a {
-      font-weight: 300;
-      padding: 0;
-      font-size: 1.25rem;
-      line-height: 1;
+      font-size: 1rem;
       width: 12rem;
-      text-align: left;
+
     }
     .nav__menu ul li a,
     .nav__menu ul li a i {
@@ -462,7 +459,7 @@ padding: var(--section-padding-y);
       padding-bottom: 2rem;
     }
     .missionParagraph{
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
 
     .MissionImgContainer{
