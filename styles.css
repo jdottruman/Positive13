@@ -2,6 +2,7 @@
 :root{
   --soft-blue:#66C3FF;
     --accent-color: #53D8FB;
+    --accent-color: #01a5ce;
     --grey:#DCE1E9;
     --black:#363732;
 
@@ -48,7 +49,7 @@ html {
     align-items: center;
     transition: box-shadow 0.3s ease-in-out;
     animation: fade-down 0.7s;
-    background-color: var(--soft-blue);
+    background-color: var(--accent-color);
 
   }
   
@@ -169,11 +170,11 @@ padding: var(--section-padding-y);
   background: #f5f5f5;
   position: relative;
   padding: 1.8rem;
-  border: 2px solid #c3c6ce;
+  border: 2px solid var(--black);
   transition: 0.5s ease-out;
   overflow: visible;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;align-items: center;
  
  }
  
@@ -227,6 +228,8 @@ padding: var(--section-padding-y);
 
 .cardImageContainer{
   width: 10rem;
+  
+  
 }
 .cardImageContainer img{
   object-fit: cover;
@@ -454,8 +457,11 @@ padding: var(--section-padding-y);
     }
     .MissionStatement{
       flex-direction: column;
-      padding:0;
+      padding:.5rem;
       padding-bottom: 2rem;
+    }
+    .missionParagraph{
+      font-size: 1rem;
     }
 
     .MissionImgContainer{
@@ -470,6 +476,12 @@ padding: var(--section-padding-y);
   .card{
     width: 100%;
 align-items: center;  }
+
+.cardImageContainer{
+  width: 100%;
+  border-radius: 20px;
+}
+
   }
   
 
