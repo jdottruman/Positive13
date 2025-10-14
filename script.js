@@ -16,6 +16,10 @@ const card = [
       description:"ejfkfnsk"}
       
       ,
+      {  photo:"Photos/slider3.png",
+      title:"flkfmlsf",
+      description:"ejfkfnsk"}
+      
 
 ];
 

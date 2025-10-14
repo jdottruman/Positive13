@@ -473,13 +473,17 @@ padding: var(--section-padding-y);
   }
 
   .card{
-align-items: center;  }
+align-items: center;  padding: .5rem;
+width: unset;
+}
 
 .cardImageContainer{
   border-radius: 20px;
 }
 .cardSection{
   flex-wrap: wrap;        /* allows cards to move to a new line */
+
+justify-content:flex-start;
 
 
 }
