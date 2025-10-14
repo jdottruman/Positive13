@@ -357,7 +357,7 @@ padding: var(--section-padding-y);
 }
     .nav__logo,
     .nav__logo a {
-      font-size: 1rem;
+      font-size: 0.75rem;
       width: 12rem;
 
     }
