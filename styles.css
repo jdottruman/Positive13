@@ -1,4 +1,9 @@
 /* global/overall styles  */
+:root{
+    --accent-color: #0288d1;
+    --grey:#8b8c89;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -17,16 +22,12 @@ html {
   
   .nav {
   
-    padding: 0rem 6rem;
+    padding: 2rem 5rem;
     /* backdrop-filter: blur(1px); */
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-    width: 100%;
-    border-radius: 0 0 8px 8px; /* Slight rounding for modern feel */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
-                    0 2px 4px rgba(0, 0, 0, 0.06); */
+  background-color: var(--accent-color);
     transition: box-shadow 0.3s ease-in-out;
     animation: fade-down 0.7s;
 
@@ -36,14 +37,13 @@ html {
   .nav__logo a {
     
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #000000;
-    /* text-shadow: 0px 2px 5px rgba(134, 172, 255, 0.3); */
-  
     font-weight: bold;
   }
   .nav__logo__highlight {
-    color: #0288d1;
+    color: #fff;
+    font-size: 1rem;
   }
   .nav__logo img {
     padding: 0 4px;
@@ -67,47 +67,17 @@ html {
   }
   
   .nav__menu ul li a {
+    color: #fff;
     font-weight: 400;
     margin-left: 1.5rem;
     font-size: 1.5rem;
-    font-family: "IBM Plex Sans", sans-serif;
     transition: color 0.3s ease;
   }
-  .navPayPalBtn {
-    background: linear-gradient(45deg, #0070ba, #003f87);
-    border: none;
-    padding: 8px 20px;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
-    display: none;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s ease, transform 0.2s ease;
-    width: 6rem;
-  }
-  .navCashAppBtn {
-    background: linear-gradient(45deg, #00c244, #00796b);
-    width: 6rem;
-    border: none;
-    padding: 8px 20px;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
-    display: none;
-    align-items: center;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s ease, transform 0.2s ease;
-  }
+
   .nav__menu ul li a:hover,
   .nav__menu ul li a:focus {
     /* border-bottom: 2px solid var(--accent-color); */
-    color: var(--accent-color);
+    color: var(--grey);
     transform: translateY(-2px);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
@@ -129,7 +99,43 @@ html {
     border-radius: 0.625rem;
     transition: all ease-in-out 0.2s;
   }
+/* mission section */
+.MissionStatement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: url(Photos/joel-muniz-3k3l2brxmwQ-unsplash.jpg);
+    background-size: cover;       /* Makes the image cover the entire section */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; 
+    padding: 2rem 4rem;
+}
+.missionsParagraphContainer{
+    display: flex;
+    align-items: center;   
+    text-align: center;
+
+}
+.missionParagraph{
+    color: #fff;
+    font-size: 2rem;
+}
   
+
+.MissionImgContainer{
+}
+
+.MissionImgContainer img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+  /* end of mission statement */
+
+
   /* iphone ver */
   @media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
     .navUpper {
@@ -147,7 +153,6 @@ html {
       line-height: 1;
       width: 12rem;
       text-align: left;
-      font-family: "Zilla Slab", serif;
     }
     .nav__menu ul li a,
     .nav__menu ul li a i {
