@@ -42,7 +42,7 @@ html {
   
   .nav {
   
-    padding: 1rem 1.25rem;
+    padding: .5rem 1.25rem;
     /* backdrop-filter: blur(1px); */
     display: flex;
     justify-content: space-between;
@@ -157,76 +157,107 @@ html {
 
   /* card section  */
 
-  .cardSection{
-    display: flex;
-    flex-direction: row;
-justify-content: space-evenly;
-padding: var(--section-padding-y);
-  }
-
-  .card {
-    width: 190px;
-    height: 254px;
-    background: rgb(236, 236, 236);
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  }
- .card-details {
-  color: black;
+/* From Uiverse.io by Admin12121 */ 
+.cardSection {
   height: 100%;
-  gap: .5em;
-  display: grid;
-  text-align: center;
-  place-content: center;
- }
- 
- .card-button {
-  transform: translate(-50%, 125%);
-  width: 60%;
-  border-radius: 1rem;
-  border: none;
-  background-color: var(--accent-color);
-  color: #fff;
-  font-size: 1rem;
-  padding: .5rem 1rem;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  opacity: 0;
-  transition: 0.3s ease-out;
- }
- 
- .text-body {
-  color: rgb(134, 134, 134);
- }
- 
- /*Text*/
- .text-title {
-  font-size: 1.5em;
-  font-weight: bold;
- }
- 
- /*Hover*/
- .card:hover {
-  border-color: var(--accent-color);
-  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
- }
- 
- .card:hover .card-button {
-  transform: translate(-50%, 50%);
-  opacity: 1;
- }
-
- /* card image  */
-
-.cardImageContainer{
-  width: 10rem;
-  
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.cardImageContainer img{
-  object-fit: cover;
-  height: 100%;
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 22em;
+  max-width: 80%;
+  padding: 2em 0;
+  background: #FFF;
+  box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+  transition: all 0.35s ease;
+}
+
+.card::before, .card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  background: orange;
+  height: 4px;
+}
+
+.card::before {
+  width: 0;
+  opacity: 0;
+  transition: opacity 0 ease, width 0 ease;
+  transition-delay: 0.5s;
+}
+
+.card::after {
+  width: 100%;
+  background: white;
+  transition: width 0.5s ease;
+}
+
+.card .content {
+  width: 18em;
+  max-width: 80%;
+}
+
+.card .logo {
+  margin: 0 0 1em;
+  width: 10.625em;
+  transition: all 0.35s ease;
+}
+
+.card .h6 {
+  color: #999;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.card .hover_content {
+  overflow: hidden;
+  max-height: 0;
+  transform: translateY(1em);
+  transition: all 0.55s ease;
+}
+
+.card .hover_content p {
+  margin: 1.5em 0 0;
+  color: #6E6E70;
+  line-height: 1.4em;
+}
+
+.card:hover {
+  width: 24em;
+  box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
+}
+
+.card:hover::before {
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.5s ease, width 0.5s ease;
+  transition-delay: 0;
+}
+
+.card:hover::after {
+  width: 0;
+  opacity: 0;
+  transition: width 0 ease;
+}
+
+.card:hover .logo {
+  margin-bottom: 0.5em;
+}
+
+.card:hover .hover_content {
+  max-height: 10em;
+  transform: none;
 }
   /* end of card section styles */
 
@@ -466,7 +497,8 @@ padding: var(--section-padding-y);
 
   .card{
 align-items: center;  padding: .5rem;
-width: unset;
+width: 100%;
+max-width: unset
 }
 
 .cardImageContainer{
