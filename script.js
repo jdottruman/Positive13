@@ -28,14 +28,17 @@ card.forEach((info,index)=>{
 cardHtml+= `
 
 <div class="card">
-    <div class="content">
-    <p class="logo">Digital Way</p>
-      <div class="h6">Data &amp; Infrastructure Agility</div>
-      <div class="hover_content">
-        <p>mParticle’s customer data platform empowers you to Integrate all of your data and orchestrate it across channels, partners, and systems.</p>
+   <a class="card1" href="#">
+    <p>This is heading</p>
+    <p class="small">Card description with lots of great facts and interesting details.</p>
+    <div class="go-corner" href="#">
+      <div class="go-arrow">
+        →
       </div>
     </div>
-  </div>       
+  </a>
+</div>
+
 
 
 `
