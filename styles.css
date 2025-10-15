@@ -349,7 +349,7 @@ padding: var(--section-padding-y);
 }
     .nav__logo,
     .nav__logo a {
-      font-size: 1rem;
+      font-size: 0.75rem;
       width: 12rem;
 
     }
@@ -452,7 +452,7 @@ padding: var(--section-padding-y);
       padding-bottom: 2rem;
     }
     .missionParagraph{
-      font-size: 2rem;
+      font-size: 1.25rem;
     }
 
     .MissionImgContainer{
