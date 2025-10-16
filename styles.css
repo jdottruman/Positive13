@@ -128,6 +128,8 @@ html {
     background-position: center;  /* Centers the image */
     background-repeat: no-repeat; 
     padding: 2rem 4rem;
+  box-shadow: 0 1px 3px var(--accent-color)
+
 }
 .missionsParagraphContainer{
     display: flex;
@@ -481,15 +483,14 @@ html {
   }
 
   .card1{
-max-width: unset;
+    width: 100vw;
+
 }
 
-.cardImageContainer{
-  border-radius: 20px;
-}
+
 .cardSection{
-  flex-wrap: wrap;        /* allows cards to move to a new line */
 flex-direction: column;
+
 
 }
 
