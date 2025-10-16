@@ -169,14 +169,14 @@ html {
 }
 /* From Uiverse.io by Prince4fff */ 
 .card p {
-  font-size: 17px;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 20px;
   color: #666;
 }
 
 .card p.small {
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .go-corner {
