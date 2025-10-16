@@ -1,23 +1,23 @@
 const card = [
 
   {  photo:"Photos/slider3.png",
-    title:"flkfmlsf",
+    title:"Our Mission",
     description:"ejfkfnsk"}
     
     ,
 
     {  photo:"Photos/slider3.png",
-    title:"flkfmlsf",
+    title:"Our Programs",
     description:"ejfkfnsk"}
     
     ,
     {  photo:"Photos/slider3.png",
-      title:"flkfmlsf",
+      title:"Get Involved",
       description:"ejfkfnsk"}
       
       ,
       {  photo:"Photos/slider3.png",
-      title:"flkfmlsf",
+      title:"Our Impact",
       description:"ejfkfnsk"}
       
 
@@ -29,8 +29,9 @@ cardHtml+= `
 
 <div class="card">
    <a class="card1" href="#">
-    <p>This is heading</p>
-    <p class="small">Card description with lots of great facts and interesting details.</p>
+    <p>${info.title}</p>
+    <br>
+    <p class="small">${info.description}</p>
     <div class="go-corner" href="#">
       <div class="go-arrow">
         →

@@ -163,6 +163,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 /* From Uiverse.io by Prince4fff */ 
 .card p {
@@ -200,11 +201,14 @@ html {
 .card1 {
   display: block;
   position: relative;
-  max-width: 262px;
+  /* max-width: 262px; */
+  width: 30rem;
+  max-height: 15rem;
+  height: 10rem;
   background-color: #f2f8f9;
   border-radius: 4px;
   padding: 32px 24px;
-  margin: 12px;
+  margin: 2px;
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
