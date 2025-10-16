@@ -128,7 +128,6 @@ html {
     background-position: center;  /* Centers the image */
     background-repeat: no-repeat; 
     padding: 2rem 4rem;
-  box-shadow: 0 1px 3px var(--accent-color)
 
 }
 .missionsParagraphContainer{
@@ -189,7 +188,7 @@ html {
   overflow: hidden;
   top: 0;
   right: 0;
-  background-color: var(--black);
+  background-color: var(--accent-color);
   border-radius: 0 4px 0 32px;
 }
 
@@ -222,7 +221,7 @@ html {
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: var(--black);
+  background: var(--accent-color);
   height: 32px;
   width: 32px;
   border-radius: 32px;
@@ -484,6 +483,7 @@ html {
 
   .card1{
     width: 100vw;
+    height: unset;
 
 }
 
