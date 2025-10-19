@@ -1,8 +1,7 @@
 /* global/overall styles  */
 :root{
-  --soft-blue:#66C3FF;
-    --accent-color: #53D8FB;
-    --accent-color: #00bdec;
+  --soft-blue:#669bbc;
+    --accent-color: #003049;
     --grey:#DCE1E9;
     --black:#363732;
 
@@ -29,7 +28,7 @@ html {
   display: flex;
   justify-content: center;
   background-color: var(--black);
-  padding: .75rem;
+  padding: .25rem;
 }
 
 .fixedBanner p{
