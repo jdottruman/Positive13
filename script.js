@@ -30,7 +30,7 @@ card.forEach((info,index)=>{
 cardHtml+= `
 
 <div class="card">
-   <a class="card1" href="${info.link}">
+   <a class="card1" href="${info.link}" target=_blank">
     <p>${info.title}</p>
     <br>
     <p class="small">${info.description}</p>
