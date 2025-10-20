@@ -52,22 +52,20 @@ html {
 
   }
   
-  .nav__logo,
-  .nav__logo a {
+  .nav__logo{
     text-align: center;
+    width: 15rem;
     font-size: 1rem;
-    color: #fff;
     font-weight: bold;
     background-color: var(--accent-color);
     background: #003049;
     background: linear-gradient(90deg, rgba(0, 48, 73, 1) 0%, rgba(34, 213, 230, 1) 76%, rgba(2, 110, 153, 1) 100%);    padding: .3rem ;
     
   }
-  .nav__logo__highlight {
-    color:#fff;
-    font-size: 1rem;
+  .nav__logo a{
+    color: #fff;
   }
-
+ 
   
   .nav__menu ul {
     display: flex;
@@ -364,7 +362,7 @@ html {
     .nav__logo,
     .nav__logo a,
     .nav__logo__highlight {
-      font-size: 1rem;
+      font-size: .9rem;
       width: 10rem;
 
     }
