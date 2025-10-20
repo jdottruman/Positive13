@@ -41,7 +41,7 @@ html {
   
   .nav {
   
-    padding: .5rem 1.25rem;
+    padding: 0rem 2rem 0rem 0rem;
     /* backdrop-filter: blur(1px); */
     display: flex;
     justify-content: space-between;
@@ -59,17 +59,15 @@ html {
     color: #fff;
     font-weight: bold;
     background-color: var(--accent-color);
-    background:  linear-gradient(to right, #003049, #0077b6);;
-    padding: .3rem ;
+    background: #003049;
+    background: linear-gradient(90deg, rgba(0, 48, 73, 1) 0%, rgba(34, 213, 230, 1) 76%, rgba(2, 110, 153, 1) 100%);    padding: .3rem ;
+    
   }
   .nav__logo__highlight {
     color:#fff;
     font-size: 1rem;
   }
-  .nav__logo img {
-    padding: 0 4px;
-    width: 100%;
-  }
+
   
   .nav__menu ul {
     display: flex;
@@ -361,13 +359,13 @@ html {
   /* iphone ver */
   @media (max-width: 768px) {
 .nav{
-  padding: .5rem 1rem;
+  padding: 0rem 1.25rem 0rem 0rem;
 }
     .nav__logo,
     .nav__logo a,
     .nav__logo__highlight {
       font-size: 0.75rem;
-      width: 8rem;
+      width: 8rem;p
 
     }
     .nav__menu ul li a,
