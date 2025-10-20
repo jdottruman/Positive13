@@ -58,9 +58,7 @@ html {
     font-size: 1rem;
     background-color: var(--accent-color);background: #003049;
     background: #2c4261;
-    background: linear-gradient(90deg, rgba(44, 66, 97, 1) 0%, rgba(49, 134, 158, 1) 38%, rgba(42, 130, 157, 1) 81%, rgba(2, 110, 153, 1) 95%);
-
-
+    background: linear-gradient(90deg, rgba(44, 66, 97, 1) 0%, rgba(23, 77, 92, 1) 48%, rgba(14, 59, 74, 1) 66%, rgba(2, 110, 153, 1) 96%);
 padding: 1rem;
 
   }
@@ -474,6 +472,8 @@ padding: 1rem;
     }
     .missionParagraph{
       font-size: 1.5rem;
+      font-weight: 800;
+      line-height: 1;
     }
 
     .MissionImgContainer{
