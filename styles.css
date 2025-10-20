@@ -56,11 +56,12 @@ html {
     text-align: center;
     width: 15rem;
     font-size: 1rem;
-    background-color: var(--accent-color);
-    background: #003049;
-    background: linear-gradient(90deg, rgba(0, 48, 73, 1) 0%, rgba(34, 213, 230, 1) 76%, rgba(2, 110, 153, 1) 100%);    padding: .3rem ;
+    background-color: var(--accent-color);background: #003049;
+    background: #2c4261;
+    background: linear-gradient(90deg, rgba(44, 66, 97, 1) 0%, rgba(49, 134, 158, 1) 38%, rgba(42, 130, 157, 1) 81%, rgba(2, 110, 153, 1) 95%);
 
-    padding: 1rem;
+
+padding: 1rem;
 
   }
   .nav__logo a{
@@ -502,4 +503,104 @@ flex-direction: column;
   
 
   
+
+/* OUR MISSION PAGE */
  
+
+/* General spacing and layout */
+.section-padding {
+  padding: 4em 2em;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-mission {
+  background: linear-gradient(to right, #003049, #0077b6);
+  color: #ffffff;
+  text-align: center;
+  padding: 6em 2em;
+}
+
+.hero-mission .btn {
+  margin-top: 1.5em;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(to right, #003049, #0077b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Core Values, Programs, and Impact Grids */
+.values-grid,
+.programs-grid,
+.impact-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+/* Cards */
+.value-card,
+.program-card,
+.stat {
+  background: #ffffff;
+  color: #002133;
+  padding: 1.5em;
+  border-radius: 1em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover,
+.program-card:hover,
+.stat:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.8em 1.6em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #003049, #0077b6);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-3px);
+}
+
+/* CTA Section */
+.cta {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Headings */
+h2 {
+  color: #003049;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+p {
+  color: #333;
+  line-height: 1.6;
+}
