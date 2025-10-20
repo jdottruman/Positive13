@@ -56,7 +56,6 @@ html {
     text-align: center;
     width: 15rem;
     font-size: 1rem;
-    font-weight: bold;
     background-color: var(--accent-color);
     background: #003049;
     background: linear-gradient(90deg, rgba(0, 48, 73, 1) 0%, rgba(34, 213, 230, 1) 76%, rgba(2, 110, 153, 1) 100%);    padding: .3rem ;
@@ -64,6 +63,8 @@ html {
   }
   .nav__logo a{
     color: #fff;
+    font-weight: 500;
+
   }
  
   
@@ -356,21 +357,19 @@ html {
   /* end of footer styles */
   /* iphone ver */
   @media (max-width: 768px) {
+
+    .nav__logo{
+      width: 50vw;
+
+    }
+
+    .fixedBanner p{
+      font-size: .7rem;
+    }
 .nav{
   padding: 0rem 1.25rem 0rem 0rem;
 }
-    .nav__logo,
-    .nav__logo a,
-    .nav__logo__highlight {
-      font-size: .9rem;
-      width: 10rem;
-
-    }
-    .nav__menu ul li a,
-    .nav__menu ul li a i {
-      color: #fffcfc;
-      font-size: 2rem;
-    }
+ 
     .nav__hamburger {
       display: flex;
     }
