@@ -364,8 +364,8 @@ html {
     .nav__logo,
     .nav__logo a,
     .nav__logo__highlight {
-      font-size: 0.75rem;
-      width: 8rem;p
+      font-size: 1rem;
+      width: 10rem;
 
     }
     .nav__menu ul li a,
