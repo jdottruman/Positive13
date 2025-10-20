@@ -59,7 +59,9 @@ html {
     background-color: var(--accent-color);
     background: #003049;
     background: linear-gradient(90deg, rgba(0, 48, 73, 1) 0%, rgba(34, 213, 230, 1) 76%, rgba(2, 110, 153, 1) 100%);    padding: .3rem ;
-    
+
+    padding: 1rem;
+
   }
   .nav__logo a{
     color: #fff;
@@ -359,7 +361,12 @@ html {
   @media (max-width: 768px) {
 
     .nav__logo{
-      width: 50vw;
+      width: 10rem;
+      padding: 0.5rem;
+      line-height: 1;
+
+    }
+    .nav__logo a{
 
     }
 
