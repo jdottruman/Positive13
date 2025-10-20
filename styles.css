@@ -59,6 +59,7 @@ html {
     color: #fff;
     font-weight: bold;
     background-color: var(--accent-color);
+    background:  linear-gradient(to right, #003049, #0077b6);;
     padding: .3rem ;
   }
   .nav__logo__highlight {
