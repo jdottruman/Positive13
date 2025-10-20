@@ -486,11 +486,13 @@ padding: 1rem;
   }
 
   .card1{
-    width: 100vw;
+    width: 100%;
     height: unset;
-
 }
 
+.card{
+  padding: 1rem;
+}
 
 .cardSection{
 flex-direction: column;
