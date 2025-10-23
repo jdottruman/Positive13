@@ -521,7 +521,10 @@ flex-direction: column;
 
 /* Hero Section */
 .hero-mission {
-  background: linear-gradient(to right, #003049, #0077b6);
+  background:url(Photos/coverphoto2.jpeg);
+  background-size: cover;       /* Makes the image cover the entire section */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat; 
   color: #ffffff;
   text-align: center;
   padding: 6em 2em;
@@ -533,9 +536,16 @@ flex-direction: column;
 
 /* Gradient Text */
 .gradient-text {
-  background: linear-gradient(to right, #003049, #0077b6);
-  -webkit-background-clip: text;
+  font-size: 2rem;
+background-color: var(--soft-blue);  
+-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+.hero-content p{
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 900;
 }
 
 /* Core Values, Programs, and Impact Grids */
@@ -580,7 +590,7 @@ flex-direction: column;
 }
 
 .btn-primary {
-  background: linear-gradient(to right, #003049, #0077b6);
+  background: linear-gradient(to right, var(--accent-color), var(--soft-blue));
   color: #ffffff;
 }
 
