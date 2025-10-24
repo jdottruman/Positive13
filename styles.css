@@ -534,7 +534,7 @@ flex-direction: column;
   background-repeat: no-repeat; 
   color: #ffffff;
   text-align: center;
-  padding:  2em;
+  padding: 3.5em 2em;
 }
 
 .hero-mission .btn {
@@ -544,7 +544,7 @@ flex-direction: column;
 /* Gradient Text */
 .gradient-text {
   font-size: 3rem;
-background-color: var(--accent-color);  
+background-color: var(--grey);  
 -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
