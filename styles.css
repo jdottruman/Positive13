@@ -21,6 +21,8 @@ html {
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
   }
   /* End of Global/Overall styles */
 /* fixed banner */
@@ -367,10 +369,11 @@ padding: 1rem;
     .nav__logo{
       width: 10rem;
       padding: 0.5rem;
-      line-height: 1;
+      font-size: .8rem;
+      line-height: 1.2;
 
     }
-    .nav__logo a{
+    .nav__logo a{font-weight: 300;
 
     }
 
@@ -384,21 +387,7 @@ padding: 1rem;
     .nav__hamburger {
       display: flex;
     }
-    .nav__location {
-      display: flex;
-      color: #cacaca;
-  
-      font-size: 0.5rem;
-      align-items: center;
-      justify-content: center;
-      font-weight: 100;
-      position: absolute;
-      top: 2.3rem;
-      right: 1rem;
-    }
-    .nav__location i {
-      padding: 0.3rem;
-    }
+
     .nav__menu {
       position: absolute;
       display: flex;
@@ -559,7 +548,6 @@ flex-direction: column;
 .hero-content p{
   color: #5f6f72; /* soft gray-teal tone */
     font-size: 1rem;
-
   color: #fff;
 
 }
@@ -632,4 +620,5 @@ h2 {
   color: #333;
   line-height: 1.6;
   font-size: 1.2rem;
+
 }
