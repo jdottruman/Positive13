@@ -537,6 +537,9 @@ flex-direction: column;
   color: #ffffff;
   text-align: center;
   padding: 3.5em 2em;
+  min-height: 50vh;
+  display: flex;
+  align-items: flex-end;
 }
 
 .hero-mission .btn {
