@@ -204,7 +204,7 @@ padding: 1rem;
   /* max-width: 262px; */
   width: 30rem;
   max-height: 15rem;
-  height: 10rem;
+  /* height: 12rem; */
   background-color: #f2f8f9;
   border-radius: 4px;
   padding: 32px 24px;
@@ -502,6 +502,7 @@ flex-direction: column;
 
 }
 
+
   
 };
   
@@ -524,13 +525,13 @@ flex-direction: column;
 
 /* Hero Section */
 .hero-mission {
-  background:url(Photos/slider3.png);
+  background:url(Photos/ourMissionBG.png);
   background-size: cover;       /* Makes the image cover the entire section */
   background-position: center;  /* Centers the image */
   background-repeat: no-repeat; 
   color: #ffffff;
   text-align: center;
-  padding: 6em 2em;
+  padding:  2em;
 }
 
 .hero-mission .btn {
@@ -539,12 +540,13 @@ flex-direction: column;
 
 /* Gradient Text */
 .gradient-text {
-  font-size: 2.3rem;
-background-color: var(--soft-blue);  
+  font-size: 3rem;
+background-color: var(--accent-color);  
 -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
 }
+
 .hero-content p{
   color: #fff;
   font-size: 1.2rem;
