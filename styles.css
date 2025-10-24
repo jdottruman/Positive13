@@ -544,8 +544,7 @@ flex-direction: column;
 /* Gradient Text */
 .gradient-text {
   font-size: 3rem;
-background-color: var(--grey);  
--webkit-background-clip: text;
+  background: linear-gradient(90deg, #0077b6, #00b4d8, #90e0ef); /* Blue-teal gradient */-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
 }
