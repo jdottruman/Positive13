@@ -555,9 +555,11 @@ flex-direction: column;
 }
 
 .hero-content p{
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 500;
+  color: #5f6f72; /* soft gray-teal tone */
+    font-size: 1rem;
+  font-weight: 600;  background: linear-gradient(90deg, #0077b6, #00b4d8, #90e0ef); /* Blue-teal gradient */-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 /* Core Values, Programs, and Impact Grids */
