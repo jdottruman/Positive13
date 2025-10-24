@@ -135,8 +135,7 @@ padding: 1rem;
 
 }
 .missionParagraph{
-    color: #fff;
-    font-size: 2rem;
+
     font-size: 3rem;
     background: linear-gradient(90deg, #0077b6, #00b4d8, #90e0ef); /* Blue-teal gradient */-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -476,9 +475,9 @@ padding: 1rem;
       padding-bottom: 2rem;
     }
     .missionParagraph{
-      font-size: 1.5rem;
-      font-weight: 800;
-      line-height: 1;
+      font-size: 2em;
+      font-weight: 900;
+      line-height: 1.2;
     }
 
     .MissionImgContainer{
