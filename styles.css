@@ -126,6 +126,7 @@ padding: 1rem;
     background-position: center;  /* Centers the image */
     background-repeat: no-repeat; 
     padding: 2rem 4rem;
+    font-family: "Oswald", sans-serif;
 
 }
 .missionsParagraphContainer{
@@ -552,13 +553,14 @@ flex-direction: column;
   background: linear-gradient(90deg, #0077b6, #00b4d8, #90e0ef); /* Blue-teal gradient */-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
+  font-family: "Oswald", sans-serif;
 }
 
 .hero-content p{
   color: #5f6f72; /* soft gray-teal tone */
     font-size: 1rem;
-  font-weight: 600;  background: linear-gradient(90deg, #0077b6, #00b4d8, #90e0ef); /* Blue-teal gradient */-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+  color: #fff;
 
 }
 
