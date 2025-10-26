@@ -123,12 +123,13 @@ padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: url(Photos/joel-muniz-3k3l2brxmwQ-unsplash.jpg);
+    /* background: url(Photos/joel-muniz-3k3l2brxmwQ-unsplash.jpg); */
     background-size: cover;       /* Makes the image cover the entire section */
     background-position: center;  /* Centers the image */
     background-repeat: no-repeat; 
     padding: 2rem 4rem;
     font-family: "Oswald", sans-serif;
+    background-color: #f2f8f9;
 
 }
 .missionsParagraphContainer{
@@ -367,13 +368,13 @@ padding: 1rem;
   @media (max-width: 768px) {
 
     .nav__logo{
-      width: 10rem;
+      /* width: 10rem; */
       padding: 0.5rem;
-      font-size: .8rem;
+      font-size: 1rem;
       line-height: 1.2;
 
     }
-    .nav__logo a{font-weight: 300;
+    .nav__logo a{font-weight: 500;
 
     }
 
